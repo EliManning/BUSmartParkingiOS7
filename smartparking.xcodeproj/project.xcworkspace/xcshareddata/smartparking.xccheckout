@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>757A0CF1-BB35-43EA-8FF0-D3333AD68A84</string>
+	<string>3BB381FC-C725-4A75-9EF6-052219DB4992</string>
 	<key>IDESourceControlProjectName</key>
 	<string>smartparking</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>29246B97-1CA0-47F8-AB0F-944724D7C0C2</key>
-		<string>https://github.com/EliManning/BUSmartParking.git</string>
+		<key>043A7E33-DB8D-48C1-AB09-A3464E06D9D9</key>
+		<string>https://github.com/EliManning/BUSmartParkingiOS7.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>smartparking.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>29246B97-1CA0-47F8-AB0F-944724D7C0C2</key>
+		<key>043A7E33-DB8D-48C1-AB09-A3464E06D9D9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/EliManning/BUSmartParking.git</string>
+	<string>https://github.com/EliManning/BUSmartParkingiOS7.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>29246B97-1CA0-47F8-AB0F-944724D7C0C2</string>
+	<string>043A7E33-DB8D-48C1-AB09-A3464E06D9D9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>29246B97-1CA0-47F8-AB0F-944724D7C0C2</string>
+			<string>043A7E33-DB8D-48C1-AB09-A3464E06D9D9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>BUSmartParking</string>
+			<string>BUSmartParkingiOS7</string>
 		</dict>
 	</array>
 </dict>

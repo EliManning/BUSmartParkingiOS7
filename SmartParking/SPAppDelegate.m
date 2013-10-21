@@ -78,7 +78,7 @@
             [self.window setRootViewController:initViewController];
         }
         else{
-            storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+            storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard5" bundle:nil];
             UIViewController *initViewController = [storyBoard instantiateInitialViewController];
             [self.window setRootViewController:initViewController];
         }

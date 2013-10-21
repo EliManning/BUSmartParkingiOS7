@@ -13,7 +13,7 @@
 @end
 
 @implementation parkingAnnotation
-
+@synthesize closeRadius;
 - (CLLocationCoordinate2D)coordinate;
 {
     CLLocationCoordinate2D theCoordinate;

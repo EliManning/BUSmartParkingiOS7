@@ -42,8 +42,8 @@
 -(void)setRegionTimer:(float) theTime;
 -(void)cancelSpot:(NSString *)userID;
 -(void)dropPinDestination:(NSString *)address;
--(void)initActivityIndicator;
--(void)cancelUserState;
+//-(void)initActivityIndicator;
+//-(void)cancelUserState;
 -(void)fireNotification:(int) notificationIndex;
 
 - (IBAction)backButton:(id)sender;

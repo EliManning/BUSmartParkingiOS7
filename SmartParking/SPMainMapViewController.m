@@ -5,7 +5,7 @@
 //  Created by smart_parking on 1/2/13.
 //  Copyright (c) 2013 smart_parking. All rights reserved.
 //
-#define allowAssignDistance			   2000000000000000
+#define allowAssignDistance			   20000
 #define closeDetectDistance            500
 #import "SPMainMapViewController.h"
 #import "SPDestAnnotation.h"
@@ -40,6 +40,7 @@ static int distance = 0;
     CLGeocoder *geocoder;
     CLPlacemark *placemark;
 }
+@synthesize bgTask;
 @synthesize activityIndicator=_activityIndicator;
 @synthesize infoBar = _infoBar;
 @synthesize cancelButton = _cancelButton;
@@ -1053,8 +1054,8 @@ static int distance = 0;
         }
         else{
             NSLog(@"init close %@",strResult);
-            NSTimer *closetimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(isClose) userInfo:nil repeats:NO];
-              
+//            NSTimer *closetimer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(isClose) userInfo:nil repeats:NO];
+            
         }
         });
     }
