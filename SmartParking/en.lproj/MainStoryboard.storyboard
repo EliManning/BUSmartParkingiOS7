@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="wDE-VV-zfs">
     <dependencies>
-        <deployment version="1296" defaultVersion="1280" identifier="iOS"/>
+        <deployment version="1296" defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
@@ -32,10 +32,10 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="135"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="9cc9044978f0f736ae42c09a0a55b319eac4131b.png" id="apu-lx-UZu">
-                                <rect key="frame" x="60" y="145" width="201" height="201"/>
+                                <rect key="frame" x="60" y="163" width="201" height="201"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="BU Smart Parking" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lbq-oO-4q9">
-                                <rect key="frame" x="60" y="334" width="331" height="60"/>
+                                <rect key="frame" x="60" y="351" width="331" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
@@ -1135,7 +1135,7 @@ Yanfeng Geng - PhD Student at Boston University; gengyf@bu.edu
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="cJ0-YI-YV2"/>
-        <segue reference="Y1q-Sa-In4"/>
+        <segue reference="E7f-zb-Qwr"/>
         <segue reference="xip-BP-KcJ"/>
         <segue reference="9nL-LD-JfR"/>
         <segue reference="vpQ-2T-YY2"/>

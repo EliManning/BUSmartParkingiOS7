@@ -567,7 +567,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartParking/smartparking-Prefix.pch";
 				INFOPLIST_FILE = "SmartParking/smartparking-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				New_Setting = "";
 				PRODUCT_NAME = smartparking;
 				PROVISIONING_PROFILE = "";
@@ -584,7 +584,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartParking/smartparking-Prefix.pch";
 				INFOPLIST_FILE = "SmartParking/smartparking-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				New_Setting = "";
 				PRODUCT_NAME = smartparking;
 				PROVISIONING_PROFILE = "";
