@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1268C01815C38000767D3E /* rsz_1mzlobacelvl.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1268BD1815C38000767D3E /* rsz_1mzlobacelvl.png */; };
+		0E1268C11815C38000767D3E /* rsz_2mzlobacelvl.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1268BE1815C38000767D3E /* rsz_2mzlobacelvl.png */; };
+		0E1268C21815C38000767D3E /* rsz_mzlobacelvl.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1268BF1815C38000767D3E /* rsz_mzlobacelvl.png */; };
 		0E7E03B418009ADA000DE309 /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7E03AE18009ADA000DE309 /* t1.png */; };
 		0E7E03B518009ADA000DE309 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7E03AF18009ADA000DE309 /* t2.png */; };
 		0E7E03B618009ADA000DE309 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7E03B018009ADA000DE309 /* t3.png */; };
@@ -78,6 +81,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E1268BD1815C38000767D3E /* rsz_1mzlobacelvl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_1mzlobacelvl.png; path = Image/rsz_1mzlobacelvl.png; sourceTree = "<group>"; };
+		0E1268BE1815C38000767D3E /* rsz_2mzlobacelvl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_2mzlobacelvl.png; path = Image/rsz_2mzlobacelvl.png; sourceTree = "<group>"; };
+		0E1268BF1815C38000767D3E /* rsz_mzlobacelvl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_mzlobacelvl.png; path = Image/rsz_mzlobacelvl.png; sourceTree = "<group>"; };
 		0E7E03AE18009ADA000DE309 /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t1.png; path = SmartParking/Image/t1.png; sourceTree = "<group>"; };
 		0E7E03AF18009ADA000DE309 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t2.png; path = SmartParking/Image/t2.png; sourceTree = "<group>"; };
 		0E7E03B018009ADA000DE309 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t3.png; path = SmartParking/Image/t3.png; sourceTree = "<group>"; };
@@ -284,6 +290,9 @@
 		4172B98716A60A92000FA026 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E1268BD1815C38000767D3E /* rsz_1mzlobacelvl.png */,
+				0E1268BE1815C38000767D3E /* rsz_2mzlobacelvl.png */,
+				0E1268BF1815C38000767D3E /* rsz_mzlobacelvl.png */,
 				0E9A777A1815A4B600634D04 /* 1360468254_US-dollar.png */,
 				0E9A777B1815A4B600634D04 /* 1360491509_car_add.png */,
 				0E9A777C1815A4B600634D04 /* 1362144491_clock_red.png */,
@@ -393,10 +402,12 @@
 				4172B98B16A60A92000FA026 /* InfoPlist.strings in Resources */,
 				4172B99A16A60A93000FA026 /* MainStoryboard.storyboard in Resources */,
 				41FD2BC716D4ADFF00099939 /* InfoPlist.strings in Resources */,
+				0E1268C01815C38000767D3E /* rsz_1mzlobacelvl.png in Resources */,
 				0E9A777F1815A4B600634D04 /* 1362144491_clock_red.png in Resources */,
 				41FD2BC816D4ADFF00099939 /* MainStoryboard.storyboard in Resources */,
 				41FD2C1216D4BBF400099939 /* smartparking-Info.plist in Resources */,
 				4144603016DF12DC007999BE /* MainStoryboard5.storyboard in Resources */,
+				0E1268C21815C38000767D3E /* rsz_mzlobacelvl.png in Resources */,
 				41465CB617CE56C400BA326F /* Default-568h@2x.png in Resources */,
 				41465CB717CE56C400BA326F /* Default@2x.png in Resources */,
 				41465CB817CE56C400BA326F /* 2f363e63af23aef632370fd14940e2d8.png in Resources */,
@@ -415,6 +426,7 @@
 				41465CC417CE56C400BA326F /* 1359528693_xmag.png in Resources */,
 				41465CC517CE56C400BA326F /* 1359528664_xmag.png in Resources */,
 				41465CC617CE56C400BA326F /* 1359528438_note2.png in Resources */,
+				0E1268C11815C38000767D3E /* rsz_2mzlobacelvl.png in Resources */,
 				41465CC717CE56C400BA326F /* 1359528150_kde-folder-saved-search.png in Resources */,
 				41465CC817CE56C400BA326F /* boston_univ_logo_rgb.gif in Resources */,
 				41465CC917CE56C400BA326F /* Default.png in Resources */,
@@ -562,6 +574,7 @@
 		4172B9A116A60A93000FA026 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -579,6 +592,7 @@
 		4172B9A216A60A93000FA026 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
