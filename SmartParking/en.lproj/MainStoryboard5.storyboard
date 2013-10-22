@@ -664,7 +664,7 @@ Yanfeng Geng - PhD Student at Boston University; gengyf@bu.edu
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Account Balance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yi3-kp-vaK">
-                                <rect key="frame" x="7" y="127.99999999999999" width="181" height="34"/>
+                                <rect key="frame" x="7" y="128" width="181" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" red="0.80000001192092896" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>

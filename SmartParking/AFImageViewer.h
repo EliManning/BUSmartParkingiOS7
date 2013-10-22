@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 @protocol AFImageViewerDelegate<NSObject>
 -(UIImageView *) imageViewForPage:(int) page;
--(int) numberOfImages;
+//-(int) numberOfImages;
 @end
 
 @interface AFImageViewer : UIView<UIScrollViewDelegate> 

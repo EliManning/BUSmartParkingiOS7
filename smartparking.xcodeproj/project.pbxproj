@@ -575,16 +575,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartParking/smartparking-Prefix.pch";
 				INFOPLIST_FILE = "SmartParking/smartparking-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				New_Setting = "";
 				PRODUCT_NAME = smartparking;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "6451B987-4A25-4E87-8AE3-8703DEB5C073";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6451B987-4A25-4E87-8AE3-8703DEB5C073";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -593,16 +593,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: yanfeng geng (SQF6TDJMNK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartParking/smartparking-Prefix.pch";
 				INFOPLIST_FILE = "SmartParking/smartparking-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				New_Setting = "";
 				PRODUCT_NAME = smartparking;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "6451B987-4A25-4E87-8AE3-8703DEB5C073";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6451B987-4A25-4E87-8AE3-8703DEB5C073";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

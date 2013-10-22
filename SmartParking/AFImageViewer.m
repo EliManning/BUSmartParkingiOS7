@@ -86,7 +86,7 @@
 {
     if (!_delegate) {
         _delegate = delegate;
-        if ([delegate respondsToSelector:@selector(numberOfImages)]) self.pageControl.numberOfPages = [delegate numberOfImages];
+      // if ([delegate respondsToSelector:@selector(numberOfImages)]) self.pageControl.numberOfPages = [delegate numberOfImages];
     }
 }
 
@@ -210,15 +210,15 @@
 
 -(int)nb
 {
-    if (self.imagesUrls) {
-        return [self.imagesUrls count];
-    } else {
-        if ([self.delegate respondsToSelector:@selector(numberOfImages)]) {
-            return [self.delegate numberOfImages];
-        } else {
+//    if (self.imagesUrls) {
+//        return [self.imagesUrls count];
+//    } else {
+//        if ([self.delegate respondsToSelector:@selector(numberOfImages)]) {
+//            return [self.delegate numberOfImages];
+//        } else {
             return [self.images count];
-        }
-    }
+//        }
+//    }
 }
 
 -(void) loadImageWithPage:(int)page
